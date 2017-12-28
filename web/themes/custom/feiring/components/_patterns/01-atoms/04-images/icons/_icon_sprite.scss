@@ -2,10 +2,20 @@
   background: url("svg/sprite.css.svg") no-repeat;
 }
 
-@mixin sprite-menu {
+@mixin sprite-calendar {
   @include svg-common;
 
   background-position: 0 0;
+}
+
+.sprite-calendar {
+  @include sprite-calendar;
+}
+
+@mixin sprite-menu {
+  @include svg-common;
+
+  background-position: 0 99.25714285714285%;
 }
 
 .sprite-menu {

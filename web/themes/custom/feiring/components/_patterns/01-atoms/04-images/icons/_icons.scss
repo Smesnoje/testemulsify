@@ -15,3 +15,12 @@
     @include with-icon;
   }
 }
+
+.icon-inline-calendar {
+  display: flex;
+
+  &::before {
+    @include sprite-calendar;
+    @include with-icon;
+  }
+}

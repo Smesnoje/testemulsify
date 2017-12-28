@@ -1,4 +1,5 @@
 items:
   1:
-    name: "Menu"
-    value: "menu"
+    name: "Primary"
+    value: "primary"
+

@@ -2,7 +2,10 @@
 // Generic header styles:
 // All arguments are optional. If not defined, the defaults below will be used
 //
-@mixin heading-xl($font-family: $font-heading, $font-size: 2rem, $line-height: 1.4, $color: inherit, $color-link: inherit, $color-link-hover: inherit, $font-weight: 700, $margin: 0 0 0.5em) {
+
+$heading-xl-size: 75px;
+
+@mixin heading-xl($font-family: $font-heading, $font-size: $heading-xl-size, $line-height: 1.4, $color: inherit, $color-link: inherit, $color-link-hover: inherit, $font-weight: 700, $margin: 0 0 0.5em) {
   color: #{$color};
   font-family: #{$font-family};
   font-weight: #{$font-weight};
@@ -120,7 +123,6 @@
 
 // TODO: BEM selectors should be applied to wysiwyg-created content
 
-.text-long {
   h1 {
     @extend .h1;
   }
@@ -144,4 +146,3 @@
   h6 {
     @extend .h6;
   }
-}
