@@ -1,0 +1,5 @@
+paragraph_content:
+  button:
+    button_url: "#"
+    button_content: "Button"
+  title: "Paragraph type 1 title demo"
